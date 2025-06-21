@@ -2,7 +2,7 @@
     width: 500px;
 }
 
-body{
+body {
     background-color: #333B1E;
     font-family: 'Barlow', sans-serif;
 }
@@ -13,7 +13,7 @@ main {
 
 h2 {
     text-align: center;
-    font-size: 48;
+    font-size: 48px;
     margin: 20px 0px;
     color: #fff;
     font-weight: bold;
@@ -25,6 +25,15 @@ h2 {
     background-image: url("../img/banner-site.jpg");
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.container-texto-banner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    height: 100%;
 }
 
 .ornamento {
@@ -43,7 +52,7 @@ h2 {
     align-items: center;
 }
 
-.container-cafe-manha-titulo h3{
+.container-cafe-manha-titulo h3 {
     font-size: 32px;
     color: #EBC181;
     text-align: center;
@@ -73,9 +82,4 @@ h2 {
     height: 270px;
     object-fit: cover;
 }
-
-
-
-
-
 
