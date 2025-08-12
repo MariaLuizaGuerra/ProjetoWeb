@@ -1,0 +1,37 @@
+.container-admin-banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 80px 0px 20px;
+}
+
+.logo-admin {
+    width: 400px;
+}
+
+.container-admin-banner h1 {
+    margin-top: 40px;
+    font-size: 30px;
+    color: #EBC181;
+}
+
+.botao-cadastrar {
+    background: #EBC181;
+    color: #333B1E;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    border: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.container-table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
