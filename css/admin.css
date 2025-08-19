@@ -15,6 +15,66 @@
     color: #EBC181;
 }
 
+
+
+h2 {
+    font-size: 24px;
+}
+
+.container-table {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container-table table {
+    width: 90%;
+    margin: auto 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+table, th, td {
+    border: 1px solid #EBC181;
+}
+
+table th {
+    padding: 8px;
+    background-color: #EBC181;
+    font-size: 18px;
+    color: #333B1E;
+    font-weight: bold;
+    text-align: left;
+}
+
+table td {
+    font-size: 18px;
+    padding: 8px;
+    color: #FFF;
+}
+
+.botao-editar {
+    background: #9B8357;
+}
+
+.botao-excluir {
+    background: crimson;
+}
+
+table tbody tr td a, .botao-cadastrar, .botao-excluir {
+    padding: 3px 10px;
+    border-radius: 10px;
+    color: #FFF;
+    text-decoration: none;
+    margin: 0 5px;
+    border: none;
+    font-size: 18px;
+}
+
+table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover {
+    cursor: pointer;
+    filter: saturate(150%);
+}
+
 .botao-cadastrar {
     background: #EBC181;
     color: #333B1E;
@@ -26,12 +86,3 @@
     border: none;
 }
 
-h2 {
-    font-size: 24px;
-}
-
-.container-table {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}

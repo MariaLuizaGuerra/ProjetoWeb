@@ -9,6 +9,14 @@ form {
     justify-content: center;
 }
 
+.container-radio {
+    display: flex;
+}
+
+.container-radio div {
+    padding: 10px;
+}
+
 form label {
     color: #EBC181;
     font-weight: bold;
@@ -21,4 +29,14 @@ form input {
     padding: 10px;
     margin-bottom: 10px;
     transition: 0.5s;
+}
+
+form input[type='file']{
+    color: #FFF;
+}
+
+form input::file-selector-button{
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
 }
