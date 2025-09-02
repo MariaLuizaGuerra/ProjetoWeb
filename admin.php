@@ -1,3 +1,13 @@
+<?php
+    session_start();
+
+    if(!isset($_SESSION['usuario'])){
+        header('Location: login.php');
+    }
+    $usuarioLogado = $_SESSION['usuario'];
+?>
+
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -18,6 +28,19 @@
 
 <body>
     <main>
+        <section class="container-topo">
+            <div class="topo-direita">
+                <p>Bem-vindo, <strong>admin@site.com.br</strong>!</p>
+                <form action="logout.php" method="POST">
+                    <button type="submit" class="botao-sair">Sair</button>
+                </form>
+            </div>
+            <div class="conteudo">
+                <h2>Painel Administrativo</h2>
+                <p>Conteúdo protegido aqui</p>
+            </div>
+        </section>
+
         <section class="container-admin-banner">
             <img src="img/logo-granato-horizontal.png" alt="Logo Granato" class="logo-admin">
             <h1>Administração Granato</h1>

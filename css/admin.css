@@ -86,3 +86,52 @@ table tbody tr td a:hover, .botao-cadastrar:hover, .botao-excluir:hover {
     border: none;
 }
 
+.container-topo {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    max-width: 100%;
+    padding: 20px;
+}
+
+.topo-direita {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    background-color: #EBC181;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.topo-direita p{
+    margin: 0;
+}
+
+.topo-direita form {
+    margin: 0;
+}
+
+.conteudo {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.botao-sair {
+    background-color: #EBC181;
+    color: #333B1E;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+}
+
+.botao-sair:hover{
+    background-color: #d9a95f;
+    transform: scale(1.05);
+}

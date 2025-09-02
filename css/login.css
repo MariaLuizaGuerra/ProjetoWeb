@@ -1,0 +1,12 @@
+.container-form .form-wrapper .mensagem-erro {
+    color: #c0392b;
+    background: #FFF;
+    border: 1px solid #c0392b;
+    padding: 8px 12px;
+    border-radius: 6px;
+    margin: 12px 0;
+}
+
+.mensagem-erro.oculto{
+    display: none;
+}

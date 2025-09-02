@@ -22,7 +22,14 @@ if ($email === '' || $senha === '') {
 
 //Credenciais corretas
 if ($email === $usuarioValido && $senha === $senhaValida) {
-    echo "Credenciais estão corretas!";
+    //Regenera a sessão 
+    session_regenerate_id(true);
+    //Setar a sessão com o email do usuário
+    $_SESSION['usuario'] = $email;
+    // echo '<pre>';
+    // var_dump($_SESSION);
+    // echo '</pre>';
+    header('Location:admin.php');
     exit;
 }
 

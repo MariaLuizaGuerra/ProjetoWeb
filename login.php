@@ -16,6 +16,7 @@ $erro = $_GET['erro'] ?? '';
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/form.css">
+    <link rel="stylesheet" href="css/login.css">
     <title>Granato - Login</title>
 </head>
 
@@ -63,6 +64,18 @@ $erro = $_GET['erro'] ?? '';
             </section>
         <?php endif; ?>
     </main>
+
+<script>
+    window.addEventListener('DOMContentLoaded', function(){
+        var msg = document.querySelector('.mensagem-erro');
+        if(msg){
+            setTimeout(function(){
+                msg.classList.add('oculto');
+            }, 5000);
+        }
+    });
+</script>
+
 </body>
 
 </html>
