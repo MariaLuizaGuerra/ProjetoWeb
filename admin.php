@@ -30,7 +30,7 @@
     <main>
         <section class="container-topo">
             <div class="topo-direita">
-                <p>Bem-vindo, <strong>admin@site.com.br</strong>!</p>
+                <p>Bem-vindo, <strong><?php echo htmlspecialchars($usuarioLogado); ?></strong>!</p>
                 <form action="logout.php" method="POST">
                     <button type="submit" class="botao-sair">Sair</button>
                 </form>
