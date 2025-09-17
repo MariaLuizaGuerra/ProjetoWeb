@@ -1,8 +1,6 @@
 <?php
 session_start();
 
-require_once __DIR__ . '/src/conexao-bd.php';
-
 
 //Permitir somente POST
 if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
