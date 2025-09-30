@@ -1,3 +1,3 @@
 # GranatoB
 
-Início do repositório.
+Repositório para aprendizagem da linguagem PHP.
