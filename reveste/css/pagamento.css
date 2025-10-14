@@ -1,0 +1,57 @@
+body {
+    font-family: 'Fredoka', sans-serif;
+    background-color: #f6efe7;
+    color: #4b2f22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container-pagamento {
+    background-color: #fff8f2;
+    border: 2px solid #c0a58a;
+    border-radius: 16px;
+    padding: 40px;
+    max-width: 400px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #8b5e3b;
+    margin-bottom: 15px;
+}
+
+p {
+    margin: 8px 0;
+    font-size: 16px;
+}
+
+.botoes-pagamento {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.btn, .btn-confirmar {
+    background-color: #c0a58a;
+    border: none;
+    color: #fff;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover, .btn-confirmar:hover {
+    background-color: #8b5e3b;
+}
+
+.btn-confirmar {
+    width: 100%;
+    margin-top: 25px;
+}

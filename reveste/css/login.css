@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+    background: url("../img/fundoLogin.jpg") no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-login {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    padding: 40px 50px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 380px;
+    width: 90%;
+}
+
+.logo-login {
+    width: 200px;
+    margin-bottom: 15px;
+}
+
+.titulo-login {
+    color: #4b2e1f;
+    font-size: 1.8rem;
+    margin-bottom: 25px;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: left;
+}
+
+label {
+    color: #4b2e1f;
+    font-size: 0.95rem;
+    font-weight: 600;
+}
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    border: 1px solid #c0a58a;
+    border-radius: 8px;
+    outline: none;
+    background-color: #fdfaf8;
+}
+
+input[type="email"]:focus,
+input[type="password"]:focus {
+    border-color: #9b6c44;
+}
+
+.botao-entrar {
+    background-color: #b2896b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao-entrar:hover {
+    background-color: #9b6c44;
+}
+
+.mensagem-erro {
+    background-color: #f8d7da;
+    color: #842029;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.mensagem-erro.oculto {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
