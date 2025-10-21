@@ -32,7 +32,7 @@ if ($repo->autenticar($email, $senha)) {
     // echo '<pre>';
     // var_dump($_SESSION);
     // echo '</pre>';
-    header('Location:admin.php');
+    header('Location:dashboard.php');
     exit;
 }
 

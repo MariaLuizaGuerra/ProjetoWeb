@@ -34,7 +34,7 @@ $erro = $_GET['erro'] ?? '';
                     </form>
                 </div>
                 <div class="conteudo">
-                    <a href="admin.php" class="link-adm">Ir para o Painel Administrativo</a>
+                    <a href="dashboard.php" class="link-adm">Ir para o Painel Administrativo</a>
                 </div>
             </section>
         <?php else: ?>
