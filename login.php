@@ -70,7 +70,7 @@ $erro = $_GET['erro'] ?? '';
 
                         <div class="acoes-login">
                             <button type="submit" class="botao-primario">Entrar</button>
-                            <a href="registrar.php" class="botao-secundario">Cadastrar</a>
+                            <a href="usuarios/registrar.php" class="botao-secundario">Cadastrar</a>
                         </div>
 
                     </form>
