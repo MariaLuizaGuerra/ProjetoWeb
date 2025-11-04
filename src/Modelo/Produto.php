@@ -3,29 +3,27 @@ class Produto
 {
     private ?int $id;
     private string $tipo;
-    private int $tamanho;
     private string $nome;
     private string $descricao;
-    private string $formaPagamento;
-
     private ?string $imagem;
     private float $preco;
+    private ?int $categoria_id;
 
-    public function __construct(?int $id, string $tipo, int $tamanho, string $nome, string $descricao, string $formarPagamento, float $preco,  ?string $imagem = null)
+    public function __construct(int $id, string $tipo, string $nome, string $descricao,  float $preco,  ?int $categoria_id, ?string $imagem = null)
     {
         $this->id = $id;
         $this->tipo = $tipo;
-        $this->tamanho = $tamanho;
         $this->nome = $nome;
         $this->descricao = $descricao;
-        $this->formaPagamento = $formaPagamento;
-        // Se não informar imagem, usa imagem padrão
-        $this->imagem = $imagem ?? 'logo-granato.png';
+        $this->imagem = $imagem ?? 'reVeste_Logo.jpg';
         $this->preco = $preco;
+        $this->categoria_id = $categoria_id;
+        
     }
 
+
     // O método getId() deve retornar o ID, que pode ser nulo
-    public function getId(): ?int
+    public function getId(): int
     {
         return $this->id;
     }
@@ -36,17 +34,11 @@ class Produto
         $this->imagem = $imagem;
     }
 
-
-
     public function getTipo(): string
     {
         return $this->tipo;
     }
 
-    public function getTamanho(): int
-    {
-        return $this->tamanho;
-    }
 
     public function getNome(): string
     {
@@ -59,10 +51,6 @@ class Produto
         return $this->descricao;
     }
 
-    public function getformaPagamento(): string
-    {
-        return $this->formaPagamento;
-    }
 
 
     public function getImagem(): ?string
@@ -85,6 +73,11 @@ class Produto
     public function getPreco(): float
     {
         return $this->preco;
+    }
+
+    public function getCategoria_id(): ?int
+    {
+        return $this->categoria_id;
     }
 
     public function getPrecoFormatado(): string
