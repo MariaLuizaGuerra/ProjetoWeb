@@ -53,7 +53,7 @@ $actionForm   = $modoEdicao ? 'salvar.php' : 'salvar.php';
 
 <head>
     <meta charset="UTF-8">
-    <title><?= htmlspecialchars($tituloPagina) ?> - Granato</title>
+    <title><?= htmlspecialchars($tituloPagina) ?> - ReVeste</title>
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/admin.css">
@@ -76,7 +76,7 @@ $actionForm   = $modoEdicao ? 'salvar.php' : 'salvar.php';
     </nav>
     <div class="container-admin-banner">
         <a href="dashboard.php">
-            <img src="../img/logo-granato-horizontal.png" alt="Granato" class="logo-admin">
+            <img src="../img/reVeste_Logo.jpg" alt="Reveste" class="logo-admin">
         </a>
     </div>
 

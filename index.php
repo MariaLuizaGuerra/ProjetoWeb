@@ -24,7 +24,7 @@ $dadosAlmoco = $produtosRepositorio->opcoesAlmoco();
     <link rel="stylesheet" href="css/index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link rel="icon" href="img/icone-granato.png" type="image/x-icon">
+    <link rel="icon" href="img/reVeste_Logo.jpg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
     <title>Granato - Cardápio</title>
@@ -35,14 +35,14 @@ $dadosAlmoco = $produtosRepositorio->opcoesAlmoco();
 
         <section class="container-banner">
             <div class="container-texto-banner">
-                <img src="img/logo-granato.png" class="logo" alt="logo-granato">
+                <img src="img/reVeste_Logo.jpg" class="logo" alt="logo-granato">
             </div>
 
         </section>
         <h2>Cardápio Digital</h2>
         <section class="container-cafe-manha">
             <div class="container-cafe-manha-titulo">
-                <h3>Opções para o Café</h3>
+                <h3>Sugestoes para você</h3>
                 <img class="ornaments" src="img/ornaments-coffee.png" alt="ornaments">
             </div>
             <div class="container-cafe-manha-produtos">

@@ -3,18 +3,22 @@ class Produto
 {
     private ?int $id;
     private string $tipo;
+    private int $tamanho;
     private string $nome;
     private string $descricao;
+    private string $formaPagamento;
 
     private ?string $imagem;
     private float $preco;
 
-    public function __construct(?int $id, string $tipo, string $nome, string $descricao,  float $preco,  ?string $imagem = null)
+    public function __construct(?int $id, string $tipo, int $tamanho, string $nome, string $descricao, string $formarPagamento, float $preco,  ?string $imagem = null)
     {
         $this->id = $id;
         $this->tipo = $tipo;
+        $this->tamanho = $tamanho;
         $this->nome = $nome;
         $this->descricao = $descricao;
+        $this->formaPagamento = $formaPagamento;
         // Se não informar imagem, usa imagem padrão
         $this->imagem = $imagem ?? 'logo-granato.png';
         $this->preco = $preco;
@@ -39,6 +43,10 @@ class Produto
         return $this->tipo;
     }
 
+    public function getTamanho(): int
+    {
+        return $this->tamanho;
+    }
 
     public function getNome(): string
     {
@@ -51,6 +59,10 @@ class Produto
         return $this->descricao;
     }
 
+    public function getformaPagamento(): string
+    {
+        return $this->formaPagamento;
+    }
 
 
     public function getImagem(): ?string

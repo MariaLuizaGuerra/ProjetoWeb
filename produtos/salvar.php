@@ -12,8 +12,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     $produto = new Produto(
         $id,
         $_POST['tipo'],
+        $_POST['tamanho'],
         $_POST['nome'],
         $_POST['descricao'],
+        $_POST['formaPagamento'],
         $_POST['preco']
     );
 

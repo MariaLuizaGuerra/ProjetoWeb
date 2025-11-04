@@ -61,8 +61,10 @@ $produtos = $produtoRepositorio->buscarTodos();
         <thead>
           <tr>
             <th>Produto</th>
+            <th>Tamanho</th>
             <th>Tipo</th>
             <th>Descricão</th>
+            <th>Forma de pagamento</th>
             <th>Valor</th>
             <th colspan="2">Ação</th>
           </tr>
@@ -72,7 +74,9 @@ $produtos = $produtoRepositorio->buscarTodos();
             <tr>
               <td><?= htmlspecialchars($produto->getNome()) ?></td>
               <td><?= htmlspecialchars($produto->getTipo()) ?></td>
+              <td><?= htmlspecialchars($produto->getTamanho()) ?></td>
               <td><?= htmlspecialchars($produto->getDescricao()) ?></td>
+              <td><?= htmlspecialchars($produto->getFormaPagamaento()) ?></td>
               <td><?= htmlspecialchars($produto->getPrecoFormatado()) ?></td>
               <td><a class="botao-editar" href="form.php?id=<?= $produto->getId() ?>">Editar</a></td>
               <td>

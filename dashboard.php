@@ -20,8 +20,8 @@ function pode(string $perm): bool
 
 <head>
     <meta charset="UTF-8">
-    <title>Dashboard - Granato</title>
-     <link rel="icon" href="img/icone-granato.png" type="image/x-icon">
+    <title>Dashboard - ReVeste</title>
+     <link rel="icon" href="img/reVeste_Logo.jpg" type="image/x-icon">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/dashboard.css">
@@ -44,7 +44,7 @@ function pode(string $perm): bool
     </nav>
     <div class="container-admin-banner">
         <a href="dashboard.php">
-            <img src="img/logo-granato-horizontal.png" alt="Granato" class="logo-admin">
+            <img src="img/reVeste_Logo.jpg" alt="Reveste" class="logo-admin">
         </a>
     </div>
 

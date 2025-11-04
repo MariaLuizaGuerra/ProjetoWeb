@@ -45,7 +45,7 @@ body {
 
 .botao-sair {
   background-color: #ebc181;
-  color: #333b1e;
+  color: #aa7615;
   border: none;
   border-radius: 10px;
   padding: 8px 16px;
@@ -57,7 +57,7 @@ body {
 }
 
 .botao-sair:hover {
-  background-color: #d9a95f;
+  background-color: #eba339;
   transform: scale(1.05);
 }
 
@@ -94,13 +94,13 @@ table {
 table,
 th,
 td {
-  border: 1px solid #ebc181;
+  border: 1px solid #8a5404;
 }
 
 table th {
   padding: 11px 0 11px;
   background-color: #ebc181;
-  color: #333b1e;
+  color: #ec8f24;
   font-weight: bold;
   font-size: 18px;
   text-align: left;
@@ -184,7 +184,7 @@ table tbody tr td a:hover,
 }
 
 .botao-excluir {
-  background: crimson;
+  background: rgb(241, 241, 252);
 }
 
 .ornaments {

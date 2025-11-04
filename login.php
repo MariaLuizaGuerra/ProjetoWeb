@@ -19,12 +19,12 @@ $erro = $_GET['erro'] ?? '';
     <link rel="stylesheet" href="css/form.css">
     <link rel="stylesheet" href="css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="icon" href="img/icone-granato.png" type="image/x-icon">
+    <link rel="icon" href="img/reVeste_Logo.jpg" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap"
         rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&display=swap" rel="stylesheet">
-    <title>Granato - Login</title>
+    <title>ReVeste - Login</title>
 </head>
 
 <body>
@@ -46,8 +46,8 @@ $erro = $_GET['erro'] ?? '';
         <?php else: ?>
 
             <section class="container-admin-banner">
-                <img src="img/logo-granato-horizontal.png" class="logo-admin" alt="logo-granato">
-                <h1>Login Granato</h1>
+                <img src="img/reVeste_Logo.jpg" class="logo-admin" alt="logo-reVeste">
+                <h1>Login reVeste</h1>
                 <img class="ornaments" src="img/ornaments-coffee.png" alt="ornaments">
             </section>
             <section class="container-form">
