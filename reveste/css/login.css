@@ -87,3 +87,19 @@ input[type="password"]:focus {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
+
+.botao-cadastrar {
+    background-color: #b2896b;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.botao-cadastrar:hover {
+    background-color: #9b6c44;
+}
